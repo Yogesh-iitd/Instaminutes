@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		  <script src="https://kit.fontawesome.com/17e310c135.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles.css" />
+		<title>ChatCord App</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1> Sign In</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+					</div>
+					<!-- <div class="form-control">
+						<label for="room">Room</label>
+						<input type="text" name="room" id="room" placeholder="Enter Room (same as yours friend)">
+					</div> -->
+					<button type="submit" class="btn">Join Room</button>
+				</form>
+			</main>
+		</div>
+		<!-- <script src="/socket.io/socket.io.js"></script>
+		<script src="./script.js"></script> -->
+
+	</body>
+</html>
